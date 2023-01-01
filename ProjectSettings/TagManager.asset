@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Boost
   - Lava
+  - DoubleJump
   layers:
   - Default
   - TransparentFX

@@ -36,16 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Sprite\Scripts\PlayerJump.cs" />
+     <Compile Include="Assets\Sprite\Scripts\Loop.cs" />
      <Compile Include="Assets\Sprite\321\ConformingSpline.cs" />
      <Compile Include="Assets\Sprite\321\SimpleDraw.cs" />
      <Compile Include="Assets\Sprite\321\Clipper.cs" />
      <Compile Include="Assets\Sprite\321\GeometryCollider.cs" />
      <Compile Include="Assets\Sprite\321\Sprinkler.cs" />
+     <Compile Include="Assets\Sprite\Scripts\Loose.cs" />
      <Compile Include="Assets\Sprite\321\LegacyCollider.cs" />
      <Compile Include="Assets\Sprite\Scripts\Background.cs" />
-     <Compile Include="Assets\Sprite\Scripts\Loop.cs" />
-     <Compile Include="Assets\Sprite\Scripts\PlayerJump.cs" />
-     <Compile Include="Assets\Sprite\Scripts\Loose.cs" />
+     <Compile Include="Assets\Sprite\Scripts\FinishLine.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/uni/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -673,6 +674,12 @@
     <Reference Include="Unity.2D.IK.Runtime">
         <HintPath>D:/New_Example/2nd indie game/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:/New_Example/2nd indie game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:/New_Example/2nd indie game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
         <HintPath>D:/New_Example/2nd indie game/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
@@ -699,12 +706,6 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
         <HintPath>D:/New_Example/2nd indie game/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>D:/New_Example/2nd indie game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>D:/New_Example/2nd indie game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

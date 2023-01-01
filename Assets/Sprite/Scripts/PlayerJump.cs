@@ -9,6 +9,7 @@ public class PlayerJump : MonoBehaviour
     public float jumpV;
     bool oneJump = true;
     bool canMove = true;
+
     [SerializeField] float baseSpeed = 10f;
     SurfaceEffector2D surfaceEffector2D;
     // Start is called before the first frame update
@@ -33,6 +34,10 @@ public class PlayerJump : MonoBehaviour
         if(other.tag == "Boost")
         {
             rb.AddForce(new Vector2(jumpV,0));
+            
+        }
+        if (other.tag == "DoubleJump")
+        {
             oneJump = true;
         }
     }
